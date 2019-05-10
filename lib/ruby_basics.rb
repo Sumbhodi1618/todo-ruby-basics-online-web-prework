@@ -17,12 +17,12 @@ def greeting(name)
   return "Hello, #{name}!"
 end
 
-def return_a_value("Nice")
-  return val
+def return_a_value(phrase = "Nice")
+  return value
 end
 
-def last_evaluated_value("expert")
-    return "#{expert}"
+def last_evaluated_value(phrase = "expert")
+    return phrase
 end
 
 def pizza_party(cheese = "cheese")
