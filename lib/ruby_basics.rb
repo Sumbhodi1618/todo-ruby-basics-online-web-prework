@@ -1,6 +1,6 @@
 def division(num1, num2)
- return num1
- return num2
+ return num1 + 2
+ return num2 + 4
  
 end
 
