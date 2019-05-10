@@ -20,10 +20,10 @@ def return_a_value
 
 end
 
-def last_evaluated_value
-
+def last_evaluated_value("expert")
+    return "#{expert}"
 end
 
-def pizza_party
-
+def pizza_party("cheese")
+return pizza_party
 end
