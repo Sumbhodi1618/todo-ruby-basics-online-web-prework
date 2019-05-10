@@ -12,7 +12,7 @@ def argue(argument = "I'm right and you are wrong!" , x)
 end
 end
 
-def greeting(name)
+def greeting(greeting, name)
   return "Hello, #{name}!"
 end
 
