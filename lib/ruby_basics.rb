@@ -6,16 +6,19 @@ def assign_variable(value = "Bob")
   return value
 end
 
-def argue(arguement = "Hello" , x)
-  return arguement
+def argue(argument = "Hello" , x)
+  x.times do
+    puts argument
+end
 end
 
-def greeting
-
+def greeting(name)
+  puts "Hello, #{name}!"
+  return "Hello, #{name}!"
 end
 
-def return_a_value("Nice")
-  return
+def return_a_value(val = "Nice")
+  return val
 end
 
 def last_evaluated_value("expert")
