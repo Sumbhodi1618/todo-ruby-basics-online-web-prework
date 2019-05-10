@@ -6,7 +6,7 @@ def assign_variable(value = "Bob")
   return value
 end
 
-def argue(argument = "Hello" , x)
+def argue(argument = "I'm right and you are wrong!" , x)
   x.times do
     puts argument
 end
