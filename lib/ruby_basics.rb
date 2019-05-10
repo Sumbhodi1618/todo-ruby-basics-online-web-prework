@@ -6,8 +6,7 @@ def assign_variable(value = "Bob")
   return value
 end
 
-def argue("I'm right and you are wrong!", x)
-  x.times do
+def argue("I'm right and you are wrong!")
     puts argument
 end
 
