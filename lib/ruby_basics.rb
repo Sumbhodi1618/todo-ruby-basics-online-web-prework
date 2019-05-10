@@ -7,9 +7,8 @@ def assign_variable(value = "Bob")
 end
 
 def argue("I'm right and you are wrong!, x)
-    x.times do
+  x.times do
     puts argument
-end
 end
 
 def greeting(greeting, name)
