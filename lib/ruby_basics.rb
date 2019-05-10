@@ -13,11 +13,10 @@ end
 end
 
 def greeting(name)
-  puts "Hello, #{name}!"
   return "Hello, #{name}!"
 end
 
-def return_a_value(phrase = "Nice")
+def return_a_value(a_value = "Nice")
   return value
 end
 
