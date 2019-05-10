@@ -6,7 +6,7 @@ def assign_variable(value = "Bob")
   return value
 end
 
-def argue(argument = "Yes", "No")
+def argue(yes = "Yes", no = "No")
   return arguement
 end
 
